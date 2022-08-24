@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-it('Verify the login of The Store - User giva a correct username and password', () => {
+it('Verify the login of The Store - UEnter valid User Name and valid Password', () => {
 
   cy.visit('https://cms.demo.katalon.com/my-account');
   cy.get('#username').type('customer');
